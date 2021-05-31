@@ -1,1 +1,44 @@
+nav{
+  text-align: center;
+    border: solid;
+    background-color: #c3423f;
+    padding: 10px;
+    display: flex;
+justify-content: space-around;
+height: 30px;
+align-items: center;
+}
+ nav > a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+background-color: black;
+padding: 9px;
+border-radius: 17px;
+width: 124px;
+ }
 
+nav > a:hover{
+background: white;
+color:black;
+}
+
+footer{
+      background-color: #f7b538;
+      position: absolute;
+      bottom: 0px;
+      width: 1900px;
+      left: 0px;
+     padding: 10px;
+
+}
+div img{
+   width:30px;
+   height: auto;
+ }
+
+ #lien_rs{
+   width: 250px;
+    display: flex;
+    justify-content: space-around;
+ }
