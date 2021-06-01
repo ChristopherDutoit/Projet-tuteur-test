@@ -24,6 +24,7 @@ td {
   color: #c3423f;
   font-weight: bold;
   padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #desc_expo a {
@@ -43,13 +44,44 @@ td {
 }
 
 .title-table {
+  background-color: #820b8a;
+  color: white;
+  font-family: Lato;
+  font-size: 25px;
   text-align: center;
 }
 
-.BG-img-table {
+.BG-img-table-DS {
   color: transparent;
   background-image: url(../images/DS-img-expo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  transition: all 0.4s ease-out;
+}
+
+.BG-img-table-DS:hover {
+  background-color: black;
+  opacity: 75%;
+}
+
+.BG-img-table-FF {
+  color: transparent;
+  background-image: url(../images/FF-img-expo.jpg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+  transition: all 0.4s ease-out;
+}
+
+.BG-img-table-FF:hover {
+  opacity: 60%;
+}
+
+.Ligne-pair {
+  background-color: #c3423f;
+}
+
+.Ligne-impair {
+  background-color: #f7b538;
 }
