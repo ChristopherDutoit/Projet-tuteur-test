@@ -107,11 +107,11 @@ td {
 }
 
 .Ligne-pair {
-  background-color: #c3423f;
+  color: #c3423f;
 }
 
 .Ligne-impair {
-  background-color: #f7b538;
+  color: #f7b538;
 }
 
 /* Une ligne du tableau=148px
