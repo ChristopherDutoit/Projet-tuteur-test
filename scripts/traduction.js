@@ -77,6 +77,10 @@ function trad(val_trad) {
         document.getElementById("expo-DS").innerHTML="FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> All platforms <br> Félix Viart";
         document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> All platforms <br> Théo Abrassart";
         break;
+
+      case 3:
+        alert("AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        break;
     }
   }
   //trad en francais
@@ -87,6 +91,10 @@ function trad(val_trad) {
         document.getElementById("desc_expo_link").innerHTML="Devenir un exposant";
         document.getElementById("expo-DS").innerHTML="FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> Toutes plateformes <br> Félix Viart";
         document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> Toutes plateformes <br> Théo Abrassart";
+        break;
+        
+      case 3:
+        alert("AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         break;
     }
   }
