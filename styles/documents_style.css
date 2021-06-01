@@ -9,3 +9,10 @@
   width: 500px;
   height: auto;
 }
+
+.DL-btn {
+  position: absolute;
+  margin-left: -340px;
+  margin-top: 400px;
+  font-size: 30px;
+}
