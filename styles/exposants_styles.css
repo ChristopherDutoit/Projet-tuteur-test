@@ -60,7 +60,7 @@ td {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .BG-img-table-DS:hover {
@@ -73,7 +73,7 @@ td {
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: center;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .BG-img-table-FF:hover {
@@ -86,11 +86,24 @@ td {
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: center;
-  transition: all 0.4s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .BG-img-table-DW:hover {
   opacity: 60%;
+}
+
+.BG-img-table-SW {
+  color: transparent;
+  background-image: url(../images/SW-img-expo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  transition: all 0.3s ease-out;
+}
+
+.BG-img-table-SW:hover {
+  opacity: 75%;
 }
 
 .Ligne-pair {
@@ -101,4 +114,5 @@ td {
   background-color: #f7b538;
 }
 
-/* Une ligne du tableau=148px*/
+/* Une ligne du tableau=148px
+Mettre le fond du tableau en blanc mais lettre les ecritures en couleur

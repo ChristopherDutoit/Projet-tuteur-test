@@ -67,9 +67,6 @@ function trad() {
       a++;
     }
   }
-
-
-
 }
 
 //Variables utilisées
