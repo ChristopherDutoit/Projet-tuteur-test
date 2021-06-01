@@ -97,18 +97,27 @@ color:black;
 }
 
 footer{
-      background-color: #f7b538;
-      position: absolute;
-      bottom: 0px;
-      width: 1900px;
-      left: 0px;
-     padding: 10px;
-     margin-left: auto;
-
+  background-color: #f7b538;
+    position: fixed;
+    bottom: 0px;
+    width: 1500px;
+    left: 0px;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #f7b538;
+    padding: 9px;
+    border-radius: 17px;
+    /* width: 124px; */
+    margin-top: 595px;
 }
 div img{
    width:30px;
    height: auto;
+   margin-left: 10px;
+   align-items: center;
  }
 
  #lien_rs{
@@ -116,3 +125,5 @@ div img{
     display: flex;
     justify-content: space-around;
  }
+
+}
