@@ -67,10 +67,16 @@ function trad() {
       a++;
     }
   }
-
-
-
 }
+
+function trad_expo() {
+  alert("Tu traduis en anglais dans la page exposants");
+}
+
+//function de trad
+//valeur propre par pages
+//Switch de la valeur
+//et on traduit avec le nav en premier hors du switch
 
 //Variables utilisées
 
