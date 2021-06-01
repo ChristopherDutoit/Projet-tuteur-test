@@ -41,7 +41,7 @@ footer{
     margin-top: 595px;
 
 }
-div img{
+footer img{
    width:30px;
    height: auto;
  }
@@ -51,3 +51,44 @@ div img{
     display: flex;
     justify-content: space-around;
  }
+
+#diapo{
+  border: solid;
+  text-align: center;
+  position: relative;
+    width: 1280px;
+    height: 720px;
+
+}
+
+#image_diapo{
+  z-index: 0;
+  width: 1070px;
+  height: 710px;
+  position: absolute;
+left: 100px;
+}
+
+
+#image_diapo > img{
+  width: 1070px;
+height: 710px;
+position: inherit;
+top: 0px;
+left: 0px;
+
+
+}
+#fleche{
+  position: absolute;
+  bottom : 0px;
+  z-index: 1;
+  width: 1280px;
+display: flex;
+justify-content: space-between;
+
+}
+
+#fleche img{
+  height: 50px;
+}
