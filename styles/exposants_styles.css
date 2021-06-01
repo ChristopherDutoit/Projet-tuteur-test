@@ -1,0 +1,39 @@
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+}
+
+#desc_expo {
+  margin-top: 15px;
+  font-family: Lato;
+  background-color: #f7b538;
+  text-align: center;
+  font-size: 30px;
+  width: 75%;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #c3423f;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#desc_expo a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f7b538;
+  background-color: #c3423f;
+  padding: 15px 15px 15px 15px;
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+
+#desc_expo a:hover {
+  font-size: 25px;
+  background-color: black;
+  color: white;
+}
