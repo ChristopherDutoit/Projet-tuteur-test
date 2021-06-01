@@ -5,10 +5,11 @@ var compt_trad=0*1;
 var a=0*1;
 
 //La fonction pour traduire en anglais ou re-mettre en français
-function trad() {
+function trad(val_trad) {
   //On incrémente 1 au compt_trad
   compt_trad++;
 
+  //Traduction du nav en français/anglais (a part parce que sinon ça vas être chiant)
   //Si le compt_trad est impair, on vas deander à traduire en anglais
   if (compt_trad%2!=0) {
     //On modifie le bouton
@@ -67,10 +68,15 @@ function trad() {
       a++;
     }
   }
-}
 
-function trad_expo() {
-  alert("Tu traduis en anglais dans la page exposants");
+  switch (val_trad) {
+    case 2:
+      document.getElementById("desc_expo_text").innerHTML="At the Fiction Fans convention, everyone can be exposant of the fiction work of his/her choise.";
+      document.getElementById("desc_expo_link").value="Be an exposant";
+      break;
+
+  }
+
 }
 
 //function de trad

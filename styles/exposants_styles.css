@@ -14,7 +14,7 @@ td {
   border: 2px solid black;
 }
 
-#desc_expo {
+#desc_expo_text {
   margin-top: 15px;
   font-family: Lato;
   background-color: #f7b538;
@@ -30,7 +30,7 @@ td {
   margin-bottom: 15px;
 }
 
-#desc_expo a {
+#desc_expo_link {
   text-transform: uppercase;
   text-decoration: none;
   color: #f7b538;
@@ -40,7 +40,7 @@ td {
   transition: all 0.5s;
 }
 
-#desc_expo a:hover {
+#desc_expo_link:hover {
   font-size: 25px;
   background-color: black;
   color: white;
