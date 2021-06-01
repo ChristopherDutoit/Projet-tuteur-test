@@ -67,7 +67,12 @@ margin-top: -320px;
 
 .trait{
   align-items: center;
-  width: 1000px;
+  /*width: 10px;*/
   margin-left: 500px;
   margin-top: -313px;
+  max-width: 302px;
+}
+
+.trait img{
+  max-width: 302px;
 }
