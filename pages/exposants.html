@@ -19,11 +19,13 @@
       <a href="map.html" id="nav-3">info-pratique</a>
       <a href="FAQ.html" id="nav-4">faq</a>
       <a href="documents.html" id="nav-5">documents</a>
-      <input type="button" id="btn-trad" onclick="trad_expo();" value="English traduction"/>
+      <input type="button" id="btn-trad" onclick="trad(2);" value="English translation"/>
   </nav>
 
-  <p id="desc_expo"> A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix. <br>
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Devenir exposant </a> </p>
+  <div id="desc_expo">
+    <p id="desc_expo_text"> A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix. </p>
+    <a id="desc_expo_link"> Devenir un exposant </a>
+  </div>
 
   <table>
     <tr>
@@ -31,12 +33,12 @@
     </tr>
 
     <tr>
-      <td class="Ligne-pair"> FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> Toutes plateformes <br> Félix Viart </td>
+      <td class="Ligne-pair" id="expo-DS"> FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> Toutes plateformes <br> Félix Viart </td>
       <td class="BG-img-table-DS"> Bonsoir AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA </td>
     </tr>
 
     <tr>
-      <td class="Ligne-impair"> Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> Toutes plateformes <br> Théo Abrassart </td>
+      <td class="Ligne-impair" id="expo-FF"> Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> Toutes plateformes <br> Théo Abrassart </td>
       <td class="BG-img-table-FF"> </td>
     </tr>
 

@@ -8,6 +8,7 @@ table {
   font-family: Lato;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 35px;
 }
 
 td {
@@ -15,22 +16,27 @@ td {
 }
 
 #desc_expo {
-  margin-top: 15px;
-  font-family: Lato;
-  background-color: #f7b538;
   text-align: center;
-  font-size: 30px;
-  width: 75%;
-  line-height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #c3423f;
+  font-family: Lato;
   font-weight: bold;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  font-size: 30px;
 }
 
-#desc_expo a {
+#desc_expo_text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #f7b538;
+  width: 75%;
+  line-height: 50px;
+  color: #c3423f;
+  padding-bottom: 15px;
+}
+
+#desc_expo_link {
+  margin-left: auto;
+  margin-right: auto;
   text-transform: uppercase;
   text-decoration: none;
   color: #f7b538;
@@ -40,7 +46,7 @@ td {
   transition: all 0.5s;
 }
 
-#desc_expo a:hover {
+#desc_expo_link:hover {
   font-size: 25px;
   background-color: black;
   color: white;

@@ -1,1 +1,18 @@
+.document-img {
+  margin-top: 15px;
+  position: relative;
+  text-align: center;
+}
 
+.img-doc {
+  max-width: 700px;
+  width: 500px;
+  height: auto;
+}
+
+.DL-btn {
+  position: absolute;
+  margin-left: -340px;
+  margin-top: 400px;
+  font-size: 30px;
+}
