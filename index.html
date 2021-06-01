@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="styles/index_style.css">
 <script src="scripts/traduction.js"> </script>
+
+
 <title>Accueil</title>
 </head>
 
@@ -17,14 +19,26 @@
       <input type="button" id="btn-trad" onclick="trad(1);" value="English traduction"/>
   </nav>
 
+  <div id="diapo">
+    <div id=image_diapo>
+      <img id="imagediapo" alt="image de convention">
+    </div>
+    <div id="fleche">
+      <img src='images/fleche.png' alt="avancer" onclick="imageprec();">
+      <img src='images/fleche2.png' alt="reculer" onclick="imagesuiv();">
+    </div>
+
+
+  </div>
+
   <footer>
     <div align center id="lien_rs">
-          <a href="https://twitter.com/fictionfanscon"><img src="images\iconetwitter.png" alt="icone twitter"></a>
+          <a href="https://twitter.com/fictionfanscon"><img id="test" src="images\iconetwitter.png" alt="icone twitter"></a>
           <a href="https://www.facebook.com/fictionfanscon"><img src="images/iconefb.png" alt="icone facebook"></a>
           <a href="https://www.instagram.com/fictionfanscon/"><img src="images/iconeig.png" alt="icone facebook"></a>
           <a href="https://www.youtube.com/channel/UCOcix4ZWoQcLmubkcryyTKA"><img src="images/iconeyt.png" alt="icone facebook"></a>
     </div>
   </footer>
-
+<script src="scripts/accueil.js"> </script>
 </body>
 </html>
