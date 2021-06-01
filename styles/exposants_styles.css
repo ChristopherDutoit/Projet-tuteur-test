@@ -45,3 +45,11 @@ td {
 .title-table {
   text-align: center;
 }
+
+.BG-img-table {
+  color: transparent;
+  background-image: url(../images/DS-img-expo.jpg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center;
+}
