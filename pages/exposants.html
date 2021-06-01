@@ -6,6 +6,7 @@
 
     <link href="../styles/exposants_styles.css" rel="stylesheet" type="text/css"/>
     <link href="../styles/index_style.css" rel="stylesheet" type="text/css"/>
+    <script src="../scripts/traduction.js"> </script>
 
     <!-- quand on parle de responsive, le viewport c'est la base !
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width"/>
@@ -13,11 +14,12 @@
 </head>
 <body>
   <nav>
-      <a href="../index.html">accueil</a>
-      <a href="exposants.html">exposants</a>
-      <a href="map.html">info-pratique</a>
-      <a href="FAQ.html">faq</a>
-      <a href="documents.html">documents</a>
+      <a href="../index.html" id="nav-1">accueil</a>
+      <a href="exposants.html" id="nav-2">exposants</a>
+      <a href="map.html" id="nav-3">info-pratique</a>
+      <a href="FAQ.html" id="nav-4">faq</a>
+      <a href="documents.html" id="nav-5">documents</a>
+      <input type="button" id="btn-trad" onclick="trad_expo();" value="English traduction"/>
   </nav>
 
   <p id="desc_expo"> A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix. <br>
