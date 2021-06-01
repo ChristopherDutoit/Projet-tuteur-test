@@ -5,6 +5,9 @@ table {
   border: 2px solid black;
   border-collapse: collapse;
   width: 95%;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 td {
@@ -61,7 +64,6 @@ td {
 }
 
 .BG-img-table-DS:hover {
-  background-color: black;
   opacity: 75%;
 }
 
@@ -78,6 +80,19 @@ td {
   opacity: 60%;
 }
 
+.BG-img-table-DW {
+  color: transparent;
+  background-image: url(../images/DW-img-expo.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+  transition: all 0.4s ease-out;
+}
+
+.BG-img-table-DW:hover {
+  opacity: 60%;
+}
+
 .Ligne-pair {
   background-color: #c3423f;
 }
@@ -85,3 +100,5 @@ td {
 .Ligne-impair {
   background-color: #f7b538;
 }
+
+/* Une ligne du tableau=148px*/
