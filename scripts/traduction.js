@@ -74,15 +74,19 @@ function trad(val_trad) {
       case 2:
         document.getElementById("desc_expo_text").innerHTML="At the Fiction Fans convention, everyone can be exposant of the fiction work of art of his/her choise.";
         document.getElementById("desc_expo_link").innerHTML="Be an Exposant";
+        document.getElementById("expo-DS").innerHTML="FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> All platforms <br> Félix Viart";
+        document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> All platforms <br> Théo Abrassart";
         break;
     }
   }
-
+  //trad en francais
   else {
     switch (val_trad) {
       case 2:
         document.getElementById("desc_expo_text").innerHTML="A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix.";
         document.getElementById("desc_expo_link").innerHTML="Devenir un exposant";
+        document.getElementById("expo-DS").innerHTML="FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> Toutes plateformes <br> Félix Viart";
+        document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> Toutes plateformes <br> Théo Abrassart";
         break;
     }
   }
