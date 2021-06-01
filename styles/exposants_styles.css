@@ -1,6 +1,10 @@
 table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   border: 2px solid black;
   border-collapse: collapse;
+  width: 95%;
 }
 
 td {
@@ -36,4 +40,8 @@ td {
   font-size: 25px;
   background-color: black;
   color: white;
+}
+
+.title-table {
+  text-align: center;
 }
