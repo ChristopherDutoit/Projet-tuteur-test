@@ -68,15 +68,24 @@ function trad(val_trad) {
       a++;
     }
   }
-
-  switch (val_trad) {
-    case 2:
-      document.getElementById("desc_expo_text").innerHTML="At the Fiction Fans convention, everyone can be exposant of the fiction work of his/her choise.";
-      document.getElementById("desc_expo_link").value="Be an exposant";
-      break;
-
+  //trad en anglais
+  if (compt_trad%2!=0) {
+    switch (val_trad) {
+      case 2:
+        document.getElementById("desc_expo_text").innerHTML="At the Fiction Fans convention, everyone can be exposant of the fiction work of art of his/her choise.";
+        document.getElementById("desc_expo_link").innerHTML="Be an Exposant";
+        break;
+    }
   }
 
+  else {
+    switch (val_trad) {
+      case 2:
+        document.getElementById("desc_expo_text").innerHTML="A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix.";
+        document.getElementById("desc_expo_link").innerHTML="Devenir un exposant";
+        break;
+    }
+  }
 }
 
 //function de trad

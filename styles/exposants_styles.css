@@ -8,29 +8,35 @@ table {
   font-family: Lato;
   font-size: 20px;
   font-weight: bold;
+  margin-top: 35px;
 }
 
 td {
   border: 2px solid black;
 }
 
-#desc_expo_text {
-  margin-top: 15px;
-  font-family: Lato;
-  background-color: #f7b538;
+#desc_expo {
   text-align: center;
+  font-family: Lato;
+  font-weight: bold;
   font-size: 30px;
-  width: 75%;
-  line-height: 50px;
+}
+
+#desc_expo_text {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #f7b538;
+  width: 75%;
+  line-height: 50px;
   color: #c3423f;
-  font-weight: bold;
   padding-bottom: 15px;
-  margin-bottom: 15px;
 }
 
 #desc_expo_link {
+  margin-left: auto;
+  margin-right: auto;
   text-transform: uppercase;
   text-decoration: none;
   color: #f7b538;
