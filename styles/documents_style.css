@@ -1,1 +1,11 @@
+.document-img {
+  margin-top: 15px;
+  position: relative;
+  text-align: center;
+}
 
+.img-doc {
+  max-width: 700px;
+  width: 500px;
+  height: auto;
+}

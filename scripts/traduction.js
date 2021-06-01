@@ -43,7 +43,7 @@ function trad(val_trad) {
 
   //Sinon, on re-met en fraçais
   else {
-    document.getElementById("btn-trad").value="English Traduction";
+    document.getElementById("btn-trad").value="English Translation";
     a=0;
 
     while (a<=5) {
@@ -92,7 +92,7 @@ function trad(val_trad) {
         document.getElementById("expo-DS").innerHTML="FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> Toutes plateformes <br> Félix Viart";
         document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> Toutes plateformes <br> Théo Abrassart";
         break;
-        
+
       case 3:
         alert("AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         break;
