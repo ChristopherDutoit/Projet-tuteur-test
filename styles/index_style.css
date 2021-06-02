@@ -96,3 +96,12 @@ justify-content: space-between;
 #fleche img{
   height: 50px;
 }
+
+#partenaire{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#partenaire img{
+      width: 250px;
+}
