@@ -61,7 +61,7 @@ textarea {
   padding: 1em;
   display: inline-block;
   text-align: right;
-  margin-left: 450px;
+  margin-left: 650px;
 }
 
 .acces{
@@ -95,9 +95,9 @@ color:black;
 
 footer{
   background-color: #f7b538;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
-    width: 1500px;
+    /* width: 1900px; */
     left: 0px;
     padding: 10px;
     margin-right: 10px;
