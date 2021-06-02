@@ -32,7 +32,9 @@
 
   <div id="diapo">
     <div id=image_diapo>
-      <img id="imagediapo" alt="image de convention">
+<iframe id='pub' width="1070px" height="710px" src="https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
+
+     <img id="imagediapo" alt="image de convention" onclick="fullscreen()">
     </div>
     <div id="fleche">
       <img src='images/fleche.png' alt="avancer" onclick="imageprec();">
@@ -40,6 +42,13 @@
     </div>
 
 
+
+  </div>
+
+  <div id="overlay">
+      <div id="popup">
+        <img id='imagepopup' src="images/ConventionFond.jpg" > <span id='btnClose' onclick="closeFullscreen()">&times;</span>
+      </div>
   </div>
 
   <h2> Nos partenaires </h2>
