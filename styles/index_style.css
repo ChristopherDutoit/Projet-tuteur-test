@@ -38,9 +38,9 @@ footer{
     text-transform: uppercase;
     background-color: #f7b538;
     padding: 9px;
-    border-radius: 17px;
+
     /* width: 124px; */
-    margin-top: 595px;
+    margin-top: 40px;
 
 }
 footer img{
@@ -52,6 +52,7 @@ footer img{
    width: 250px;
     display: flex;
     justify-content: space-around;
+    margin-left:830px;
  }
 
 #diapo{
@@ -61,7 +62,7 @@ footer img{
     width: 1280px;
     height: 720px;
     left: 300px;
-        padding: 50px;
+    padding: 50px;
 
 }
 
@@ -80,6 +81,8 @@ height: 710px;
 position: inherit;
 top: 0px;
 left: 0px;
+z-index: 1;
+display: nome;
 
 
 }
@@ -103,9 +106,43 @@ justify-content: space-between;
   align-items: center;
 }
 #partenaire img{
-      width: 250px;
+      width: 130px;
 }
 
 h3{
   text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+#overlay{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height:100%;
+  z-index: 3;
+display: none;
+
+
+}
+
+#popup{
+  margin: 20% auto;
+      width: 1060px;
+      display: flex;
+      position: relative;
+      bottom: 275px;
+
+
+}
+
+#btnClose{
+  font-size: 50px;
+  position: absolute;
+top: -20px;
+right: 6px;
 }
