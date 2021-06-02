@@ -52,72 +52,46 @@ td {
   color: #f7b538;
 }
 
-.title-table {
-  background-color: #820b8a;
-  color: white;
-  font-family: Lato;
-  font-size: 25px;
-  text-align: center;
+.img-expo-tabl-Zelda {
+  background-image: url(../images/Logo-Zelda-Expo.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.BG-img-table-DS {
-  color: transparent;
-  background-image: url(../images/DS-img-expo.jpg);
+.img-expo-tabl-AC {
+  background-image: url(../images/Logo-AC-Expo.png);
+  background-size: 65%;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-expo-tabl-DS {
+  background-image: url(../images/Logo-DS-Expo.png);
   background-size: 100%;
-  background-position: center;
-  transition: all 0.3s ease-out;
-}
-
-.BG-img-table-DS:hover {
-  opacity: 75%;
-}
-
-.BG-img-table-FF {
-  color: transparent;
-  background-image: url(../images/FF-img-expo.jpg);
   background-repeat: no-repeat;
-  background-size: 30%;
   background-position: center;
-  transition: all 0.3s ease-out;
 }
 
-.BG-img-table-FF:hover {
-  opacity: 60%;
-}
-
-.BG-img-table-DW {
-  color: transparent;
-  background-image: url(../images/DW-img-expo.png);
-  background-repeat: no-repeat;
-  background-size: 30%;
-  background-position: center;
-  transition: all 0.3s ease-out;
-}
-
-.BG-img-table-DW:hover {
-  opacity: 60%;
-}
-
-.BG-img-table-SW {
-  color: transparent;
-  background-image: url(../images/SW-img-expo.jpg);
-  background-repeat: no-repeat;
+.img-expo-tabl-FF {
+  background-image: url(../images/Logo-FF-Expo.png);
   background-size: 100%;
+  background-repeat: no-repeat;
   background-position: center;
-  transition: all 0.3s ease-out;
 }
 
-.BG-img-table-SW:hover {
-  opacity: 75%;
+.img-expo-tabl-Mario {
+  background-image: url(../images/Logo-Mario-Expo.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.Ligne-pair {
-  color: #c3423f;
-}
-
-.Ligne-impair {
-  color: #f7b538;
+.img-expo-tabl-BTTF {
+  background-image: url(../images/Logo-BTTF-Expo.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Une ligne du tableau=148px
