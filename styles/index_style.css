@@ -1,3 +1,5 @@
+
+
 nav{
   text-align: center;
     border: solid;
@@ -58,6 +60,8 @@ footer img{
   position: relative;
     width: 1280px;
     height: 720px;
+    left: 300px;
+        padding: 50px;
 
 }
 
@@ -66,9 +70,9 @@ footer img{
   width: 1070px;
   height: 710px;
   position: absolute;
-left: 100px;
+left: 150px;
 }
-  
+
 
 #image_diapo > img{
   width: 1070px;
@@ -81,7 +85,7 @@ left: 0px;
 }
 #fleche{
   position: absolute;
-  bottom : 0px;
+  bottom : 389px;
   z-index: 1;
   width: 1280px;
 display: flex;
@@ -91,4 +95,13 @@ justify-content: space-between;
 
 #fleche img{
   height: 50px;
+}
+
+#partenaire{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#partenaire img{
+      width: 250px;
 }
