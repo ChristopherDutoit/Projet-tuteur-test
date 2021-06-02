@@ -91,7 +91,10 @@ function trad(val_trad) {
           document.getElementById("btn-dl-"+b).style.marginLeft="-335px";
           b++;
         }
+        break;
 
+      case 4:
+        document.getElementById("map-tip").innerHTML="To access the convention, and if you lives in Lille we tip you to join the convention by walking or with the Illevia network. <br> It'll be benefic for you and the planet.";
         break;
     }
   }
@@ -119,12 +122,12 @@ function trad(val_trad) {
   }
 }
 
-//function de trad
-//valeur propre par pages
-//Switch de la valeur
-//et on traduit avec le nav en premier hors du switch
-
 //Variables utilisées
 
 //Whiles
 //a
+//b
+
+//autres
+//val_trad
+//compt_trad
