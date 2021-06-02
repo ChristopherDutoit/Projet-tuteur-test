@@ -36,7 +36,7 @@ footer{
     text-transform: uppercase;
     background-color: #f7b538;
     padding: 9px;
-    
+
     /* width: 124px; */
     margin-top: 40px;
 
@@ -50,6 +50,7 @@ footer img{
    width: 250px;
     display: flex;
     justify-content: space-around;
+    margin-left:830px;
  }
 
 #diapo{

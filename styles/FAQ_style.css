@@ -46,11 +46,13 @@ footer{
    width: 250px;
     display: flex;
     justify-content: space-around;
+    margin-left:830px;
  }
 
  #lien_rs img {
   width:30px;
 height: auto;
+
 }
 
 .question{
@@ -77,4 +79,5 @@ height: auto;
   max-width: 489px;
     z-index: 8;
     position: static;
+    margin-left: 23px;
 }
