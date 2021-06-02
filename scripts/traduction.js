@@ -79,7 +79,7 @@ function trad(val_trad) {
         break;
 
       case 3:
-        alert("AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        
         break;
     }
   }
