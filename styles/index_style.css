@@ -1,5 +1,3 @@
-
-
 nav{
   text-align: center;
     border: solid;
@@ -38,9 +36,9 @@ footer{
     text-transform: uppercase;
     background-color: #f7b538;
     padding: 9px;
-    border-radius: 17px;
+
     /* width: 124px; */
-    margin-top: 595px;
+    margin-top: 40px;
 
 }
 footer img{
@@ -52,6 +50,7 @@ footer img{
    width: 250px;
     display: flex;
     justify-content: space-around;
+    margin-left:830px;
  }
 
 #diapo{
@@ -61,7 +60,7 @@ footer img{
     width: 1280px;
     height: 720px;
     left: 300px;
-        padding: 50px;
+    padding: 50px;
 
 }
 
@@ -107,5 +106,9 @@ justify-content: space-between;
 }
 
 h3{
+  text-align: center;
+}
+
+h2{
   text-align: center;
 }
