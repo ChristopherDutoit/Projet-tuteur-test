@@ -42,7 +42,7 @@ td {
   background-color: #f7b538;
   padding: 15px 15px 15px 15px;
   transition: all 0.5s;
-  margin-left: -200px;
+  margin-left: -186px;
   margin-top: -122px;
 }
 
@@ -54,14 +54,14 @@ td {
 
 .img-expo-tabl-Zelda {
   background-image: url(../images/Logo-Zelda-Expo.png);
-  background-size: 65%;
+  background-size: 42%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .img-expo-tabl-AC {
   background-image: url(../images/Logo-AC-Expo.png);
-  background-size: 65%;
+  background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
 }

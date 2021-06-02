@@ -74,12 +74,17 @@ function trad(val_trad) {
   //trad en anglais
   if (compt_trad%2!=0) {
     switch (val_trad) {
+      //Page de l'index
+      case 1:
+        document.getElementById("txt-pres-index").innerHTML="<h3>Our convention is based on Fantastic, Adventure, Horror, Fantasy, Science-Fiction and Epic themes. <br> It groups fiction fans present in the French region of \"Pas-de-Calais\" and its surroundings. <br> It has for goal to present fictions between fans. <br> this convention will be open the 18th of december, 2021 and will be closed the 20th of december, 2021. <br> The convention will  in the building \"Lille Grand Palais\". <br> If you want to present your favorite work of art, the applications for the exibitions are opened </h3>";
+        document.getElementById("partenaires-title").innerHTML="Our sponsors";
+        break;
+
       //Page sur les exposants
       case 2:
         document.getElementById("desc_expo_text").innerHTML="At the Fiction Fans convention, everyone can be exposant of the fiction work of art of his/her choise.";
         document.getElementById("desc_expo_link").innerHTML="Be an Exposant";
-        document.getElementById("expo-DS").innerHTML="FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> All platforms <br> Félix Viart";
-        document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> All platforms <br> Théo Abrassart";
+        document.getElementById("desc_expo_link").style.marginLeft="-143px";
         break;
 
       //Page sur les documents
@@ -101,12 +106,17 @@ function trad(val_trad) {
   //trad en francais
   else {
     switch (val_trad) {
+      //Page de l'index
+      case 1:
+      document.getElementById("txt-pres-index").innerHTML="<h3> Notre convention est basée sur les thèmes Fantastique, Aventures, Horrors, Fantasy, Science Fiction et épopée.<br> Elle rassemble les fans de fiction présent dans le nord pas de calais et ces alentours. <br>Elle a pour but de présenter les fictions entre fans.<br> Elle a lieu du 18 décembre 2021 jusqu'au 20 décembre 2021. <br>Elle prendra place au grand palais de Lille. <br>Si tu veux présenter ton oeuvre préférer les candidatures pour les exposants sont encore ouverte </h3>";
+      document.getElementById("partenaires-title").innerHTML="Nos partenaires";
+      break;
+
       //Page sur les exposants
       case 2:
         document.getElementById("desc_expo_text").innerHTML="A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix.";
         document.getElementById("desc_expo_link").innerHTML="Devenir un exposant";
-        document.getElementById("expo-DS").innerHTML="FromSoftware <br> DARK SOULS <br> 2011-2016 <br> Hidetaka Miyazaki <br> Toutes plateformes <br> Félix Viart";
-        document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> Toutes plateformes <br> Théo Abrassart";
+        document.getElementById("desc_expo_link").style.marginLeft="-186px";
         break;
 
       //Page sur les documents
