@@ -4,6 +4,9 @@ var compt_trad=0*1;
 //Variable a pour le parcours du nav et autres
 var a=0*1;
 
+//Variable b pour le parcours des boutons dans la page des documents
+var b=0*1;
+
 //La fonction pour traduire en anglais ou re-mettre en français
 function trad(val_trad) {
   //On incrémente 1 au compt_trad
@@ -71,6 +74,7 @@ function trad(val_trad) {
   //trad en anglais
   if (compt_trad%2!=0) {
     switch (val_trad) {
+      //Page sur les exposants
       case 2:
         document.getElementById("desc_expo_text").innerHTML="At the Fiction Fans convention, everyone can be exposant of the fiction work of art of his/her choise.";
         document.getElementById("desc_expo_link").innerHTML="Be an Exposant";
@@ -78,14 +82,23 @@ function trad(val_trad) {
         document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> All platforms <br> Théo Abrassart";
         break;
 
+      //Page sur les documents
       case 3:
-        
+        //traduction des boutons de téléchargement
+        b=1;
+        while (b<7) {
+          document.getElementById("btn-dl-"+b).innerHTML="Download";
+          document.getElementById("btn-dl-"+b).style.marginLeft="-335px";
+          b++;
+        }
+
         break;
     }
   }
   //trad en francais
   else {
     switch (val_trad) {
+      //Page sur les exposants
       case 2:
         document.getElementById("desc_expo_text").innerHTML="A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix.";
         document.getElementById("desc_expo_link").innerHTML="Devenir un exposant";
@@ -93,8 +106,14 @@ function trad(val_trad) {
         document.getElementById("expo-FF").innerHTML="Sqaure Enix <br> Final Fantasy <br> 1987-2020 <br> Hironobu Sakaguchi <br> Toutes plateformes <br> Théo Abrassart";
         break;
 
+      //Page sur les documents
       case 3:
-        alert("AAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        b=1;
+        while (b<7) {
+          document.getElementById("btn-dl-"+b).innerHTML="Télécharger";
+          document.getElementById("btn-dl-"+b).style.marginLeft="-343px";
+          b++;
+        }
         break;
     }
   }
