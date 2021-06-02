@@ -53,5 +53,16 @@ if(i<images.length-1){
    document.getElementById('imagediapo').src = images[i];
 }
 
+function fullscreen(){
+  var urlimg=document.getElementById('imagediapo').src;
+  document.getElementById('imagepopup').src = urlimg;
+  document.getElementById('overlay').style.display ='block';
 
+
+}
+
+function closeFullscreen(){
+document.getElementById('overlay').style.display ='none';
+
+}
  window.onload=imagesuiv(false);
