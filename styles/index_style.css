@@ -1,5 +1,3 @@
-
-
 nav{
   text-align: center;
     border: solid;
@@ -38,9 +36,9 @@ footer{
     text-transform: uppercase;
     background-color: #f7b538;
     padding: 9px;
-    border-radius: 17px;
+    
     /* width: 124px; */
-    margin-top: 595px;
+    margin-top: 40px;
 
 }
 footer img{
@@ -107,5 +105,9 @@ justify-content: space-between;
 }
 
 h3{
+  text-align: center;
+}
+
+h2{
   text-align: center;
 }

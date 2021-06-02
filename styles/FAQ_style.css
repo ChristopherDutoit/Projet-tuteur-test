@@ -36,9 +36,9 @@ footer{
       text-transform: uppercase;
       background-color: #f7b538;
       padding: 9px;
-      border-radius: 17px;
+
       /* width: 124px; */
-      margin-top: 595px;
+      margin-top: 40px;
 }
 
 
@@ -55,8 +55,8 @@ height: auto;
 
 .question{
   text-align: center;
-margin-right: -746px;
-margin-top: -320px;
+      margin-right: -746px;
+      margin-top: -487px;
 }
 
 .video{
@@ -74,5 +74,7 @@ margin-top: -320px;
 }
 
 .trait img{
-  max-width: 302px;
+  max-width: 489px;
+    z-index: 8;
+    position: static;
 }
