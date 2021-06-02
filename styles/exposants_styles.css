@@ -31,25 +31,25 @@ td {
   width: 75%;
   line-height: 50px;
   color: #c3423f;
-  padding-bottom: 15px;
+  padding-bottom: 150px;
 }
 
 #desc_expo_link {
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
   text-transform: uppercase;
   text-decoration: none;
-  color: #f7b538;
-  background-color: #c3423f;
+  color: #c3423f;
+  background-color: #f7b538;
   padding: 15px 15px 15px 15px;
-  border-radius: 40px;
   transition: all 0.5s;
+  margin-left: -200px;
+  margin-top: -122px;
 }
 
 #desc_expo_link:hover {
-  font-size: 25px;
-  background-color: black;
-  color: white;
+  text-align: center;
+  background-color: #c3423f;
+  color: #f7b538;
 }
 
 .title-table {

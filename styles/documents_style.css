@@ -8,6 +8,11 @@
   max-width: 700px;
   width: 500px;
   height: auto;
+  transition: all 0.3s ease-out;
+}
+
+.img-doc:hover {
+  opacity: 50%;
 }
 
 .DL-btn {

@@ -6,21 +6,24 @@
     <link rel="stylesheet" href="../styles/map_style.css">
     <script src="../scripts/map_script.js"></script>
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <script src="../scripts/traduction.js"> </script>
+    <link rel="stylesheet" href="../styles/index_style.css"/>
   </head>
   <body>
     <header>
 
     </header>
     <nav>
-      <a href="../index.html">accueil</a>
-      <a href="exposants.html">exposants</a>
-      <a href="map.html">info-pratique</a>
-      <a href="FAQ.html">faq</a>
-      <a href="documents.html">documents</a>
+      <a href="../index.html" id="nav-1">accueil</a>
+      <a href="exposants.html" id="nav-2">exposants</a>
+      <a href="map.html" id="nav-3">info-pratique</a>
+      <a href="FAQ.html" id="nav-4">faq</a>
+      <a href="documents.html" id="nav-5">documents</a>
+      <input type="button" id="btn-trad" onclick="trad(4);" value="English translation"/>
     </nav>
     <div>
       <div class="acces">
-        <p>Pour accéder à la convention ,si vous habitez à lille ,nous vous conseillons de venir en marchant. <br>
+        <p id="map-tip">Pour accéder à la convention, si vous habitez à lille ,nous vous conseillons de venir en marchant. <br>
            Cela aidera la nature et votre physique.</p>
       </div>
       <div class="Maps">
@@ -40,7 +43,7 @@
               <label for="msg">Message :</label>
               <textarea id="msg" name="user_message"></textarea>
               <div class="button">
-                <button type="submit">Envoyer le message</button>
+                <button type="submit" class="btn">Envoyer le message</button>
               </div>
           </form>
             </div>
