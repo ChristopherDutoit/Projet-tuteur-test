@@ -116,6 +116,27 @@ td,td,th {
 }
 
 
+.img-expo-tabl-TBBT {
+  background-image: url(../images/Logo-TBBT-Expo.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center top -24px;
+}
+
+.img-expo-tabl-B99 {
+  background-image: url(../images/Logo-B99-Expo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-expo-tabl-Demon_S {
+  background-image: url(../images/Logo-Demon_S-Expo.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
 nav{
   text-align: center;
     border: solid;
@@ -308,27 +329,3 @@ right: 6px;
     margin-left: 292px;
   }
 }
-/* Une ligne du tableau=148px
-Mettre le fond du tableau en blanc mais lettre les ecritures en couleur
-
-.img-expo-tabl-TBBT {
-  background-image: url(../images/Logo-TBBT-Expo.png);
-  background-size: 85%;
-  background-repeat: no-repeat;
-  background-position: center top -24px;
-}
-
-.img-expo-tabl-B99 {
-  background-image: url(../images/Logo-B99-Expo.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.img-expo-tabl-Demon_S {
-  background-image: url(../images/Logo-Demon_S-Expo.png);
-  background-size: 55%;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-
