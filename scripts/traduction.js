@@ -15,9 +15,6 @@ function trad(val_trad) {
   //Traduction du nav en français/anglais (a part parce que sinon ça vas être chiant)
   //Si le compt_trad est impair, on vas deander à traduire en anglais
   if (compt_trad%2!=0) {
-    //On modifie l'image et le alt (au cas-où)
-    document.getElementById("btn-trad").src="images/Fr-flag.png";
-    document.getElementById("btn-trad").alt="Traduction Française";
     //On reset le a pour le parcours du nav
     a=0;
     //On parcours le nav pour le traduire
@@ -47,9 +44,6 @@ function trad(val_trad) {
 
   //Sinon, on re-met en fraçais
   else {
-
-    document.getElementById("btn-trad").src="images/Engl_US-flag.png";
-    document.getElementById("btn-trad").alt="English Translation";
     a=0;
 
     while (a<=5) {
@@ -79,12 +73,18 @@ function trad(val_trad) {
     switch (val_trad) {
       //Page de l'index
       case 1:
+        document.getElementById("btn-trad").src="./images/Fr-flag.png";
+        document.getElementById("btn-trad").alt="Traduction Française";
+
         document.getElementById("txt-pres-index").innerHTML="<h3>Our convention is based on Fantastic, Adventure, Horror, Fantasy, Science-Fiction and Epic themes. <br> It groups fiction fans present in the French region of \"Pas-de-Calais\" and its surroundings. <br> It has for goal to present fictions between fans. <br> This convention will be open the 18th of december, 2021 and will be closed the 20th of december, 2021. <br> The convention will  in the building \"Lille Grand Palais\". <br> If you want to present your favorite work of art, the applications for the exibitions are opened </h3>";
         document.getElementById("partenaires-title").innerHTML="Our sponsors";
         break;
 
       //Page sur les exposants
       case 2:
+        document.getElementById("btn-trad").src="../images/Fr-flag.png";
+        document.getElementById("btn-trad").alt="Traduction Française";
+
         document.getElementById("desc_expo_text").innerHTML="At the Fiction Fans convention, everyone can be exposant of the fiction work of art of his/her choise.";
         document.getElementById("desc_expo_link").innerHTML="Be an Exposant";
         document.getElementById("desc_expo_link").style.marginLeft="-143px";
@@ -99,10 +99,12 @@ function trad(val_trad) {
           document.getElementById("btn-dl-"+b).style.marginLeft="-335px";
           b++;
         }
+        document.getElementById("btn-trad").src="../images/Fr-flag.png";
+        document.getElementById("btn-trad").alt="Traduction Française";
         break;
 
       case 4:
-        document.getElementById("map-tip").innerHTML="To access the convention, and if you lives in Lille we tip you to join the convention by walking or with the Illevia network. <br> It'll be benefic for you and the planet.";
+        document.getElementById("map-tip").innerHTML="To access the convention, and if you lives in Lille we tip you to join the convention by walking or with the Illevia transport network. <br> It'll be benefic for you and the planet. <br> For the peoples that lives in foreign countries or far away form the convention, we tip you to take the train. <br> The metro and bus are also avalable and not far from the convention. <br> For the metro, you have to get of at the station named \"Lille grand palais\" and to walk several meters. <br> For the bus, there is an bus stop named \"Grand Palais\" (on the line 18) just besides the metro station. <br> For the exposants, our backstages will be opened for several days and even several hours before the beggining of the convention for you to instal your stand. <br> ";
         break;
     }
   }
@@ -111,12 +113,18 @@ function trad(val_trad) {
     switch (val_trad) {
       //Page de l'index
       case 1:
+      document.getElementById("btn-trad").src="./images/Engl_US-flag.png";
+      document.getElementById("btn-trad").alt="English Translation";
+
       document.getElementById("txt-pres-index").innerHTML="<h3> Notre convention est basée sur les thèmes Fantastique, Aventures, Horrors, Fantasy, Science Fiction et épopée.<br> Elle rassemble les fans de fiction présent dans le nord pas de calais et ces alentours. <br>Elle a pour but de présenter les fictions entre fans.<br> Elle a lieu du 18 décembre 2021 jusqu'au 20 décembre 2021. <br>Elle prendra place au grand palais de Lille. <br>Si tu veux présenter ton oeuvre préférer les candidatures pour les exposants sont encore ouverte </h3>";
       document.getElementById("partenaires-title").innerHTML="Nos partenaires";
       break;
 
       //Page sur les exposants
       case 2:
+        document.getElementById("btn-trad").src="../images/Engl_US-flag.png";
+        document.getElementById("btn-trad").alt="English Translation";
+
         document.getElementById("desc_expo_text").innerHTML="A la convention des Fiction fans, tout le monde peut devenir exposant de l'oeuvre de fiction de son choix.";
         document.getElementById("desc_expo_link").innerHTML="Devenir un exposant";
         document.getElementById("desc_expo_link").style.marginLeft="-186px";
@@ -130,6 +138,13 @@ function trad(val_trad) {
           document.getElementById("btn-dl-"+b).style.marginLeft="-343px";
           b++;
         }
+
+        document.getElementById("btn-trad").src="../images/Engl_US-flag.png";
+        document.getElementById("btn-trad").alt="English Translation";
+        break;
+
+      case 4:
+        document.getElementById("map-tip").innerHTML="Pour accéder à la convention, si vous habitez à lille ,nous vous conseillons de venir en marchant. <br> Cela aidera la nature et votre physique. <br> Pour ceux qui ont la flemme comme nous ,nous vous conseillons de venir en train pour plus de pratique. <br> Il est aussi possible de venir en bus ou en métro. <br> Pour le métro decender à l'arret Lille grand palais, vous devrez juste marcher quelque mètre a faire.<br> Pour le bus ,un arret de bus est placer juste à coté de l'arret du métro.<br> Pour les exposants les locaux vous seront ouvert quelque jours ou heures <br>avant l'exposition afin de vous permettre votre installation.";
         break;
     }
   }
