@@ -3,7 +3,6 @@ h3,h2,nav {
   font-family: Lato;
 }
 
-
 nav{
   text-align: center;
     border: solid;
@@ -29,28 +28,10 @@ background: white;
 color:black;
 }
 
-footer{
-  background-color: #f7b538;
-    /* position: fixed; */
-    bottom: 0px;
-    /* width: 1900px; */
-    left: 0px;
-    padding: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    background-color: #f7b538;
-    padding: 9px;
-
-    /* width: 124px; */
-    margin-top: 40px;
-
+footer {
+  background-color: #404040;
+  border: none;
 }
-footer img{
-   width:30px;
-   height: auto;
- }
 
  #lien_rs{
    width: 250px;
@@ -136,10 +117,10 @@ display: none;
 
 #popup{
   margin: 20% auto;
-      width: 1060px;
+      width: 1250px;
       display: flex;
       position: relative;
-      bottom: 275px;
+      bottom: 300px;
 
 
 }
@@ -147,8 +128,13 @@ display: none;
 #btnClose{
   font-size: 50px;
   position: absolute;
-top: -20px;
-right: 6px;
+top: -30px;
+right: -35px;
+}
+
+#imagepopup{
+  width : 1250px;
+  margin : auto;
 }
 
 .Banner_FF {
@@ -191,4 +177,32 @@ right: 6px;
 
 #btn-trad {
   width: 5%;
+}
+
+.nav-footer {
+  background-image: url(../images/trait-blanc.png);
+  background-repeat: no-repeat;
+  background-position: center left 853px;
+  background-size: 2px 190px;
+  background-color: #404040;
+  height: auto;
+  color: white;
+  display: grid;
+  text-align: left;
+  max-width: 1857px;
+  line-height: 20px;
+  border:none;
+}
+
+.nav-footer a {
+  border-radius: 0px;
+  background-color: #404040;
+}
+
+.reseaux img {
+  height: 50px;
+}
+
+.TW-footer {
+  background-color: red;
 }

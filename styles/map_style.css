@@ -4,7 +4,7 @@ html {
 form {
   /* Uniquement centrer le formulaire sur la page */
   margin: 0 auto;
-  width: 400px;
+  width: 20.20%;
   /* Encadré pour voir les limites du formulaire */
   padding: 1em;
   border: 1px solid #CCC;
@@ -18,7 +18,7 @@ form div + div {
 label {
   /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
   display: inline-block;
-  width: 90px;
+  width: 4,5%;
   text-align: right;
 }
 
@@ -47,7 +47,7 @@ textarea {
 
 .button {
   /* Pour placer le bouton à la même position que les champs texte */
-  padding-left: 90px; /* même taille que les étiquettes */
+  padding-left: 4.54%; /* même taille que les étiquettes */
 }
 
 .btn {
@@ -61,7 +61,7 @@ textarea {
   padding: 1em;
   display: inline-block;
   text-align: right;
-  margin-left: 650px;
+  margin-left: 31%;
 }
 
 .acces{
@@ -72,10 +72,10 @@ nav{
   text-align: center;
     border: solid;
     background-color: #c3423f;
-    padding: 10px;
+    padding: 0,50%;
     display: flex;
 justify-content: space-around;
-height: 30px;
+height: 1.51%;
 align-items: center;
 }
  nav > a{
@@ -84,8 +84,8 @@ color: white;
 text-transform: uppercase;
 background-color: black;
 padding: 9px;
-border-radius: 17px;
-width: 124px;
+border-radius: 0,85%;
+width: 6,26%;
  }
 
 nav > a:hover{
@@ -99,60 +99,60 @@ footer{
     bottom: 0px;
     /* width: 1900px; */
     left: 0px;
-    padding: 10px;
-    margin-right: 10px;
+    padding: 0.51%;
+    margin-right: 0.50%;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     background-color: #f7b538;
-    padding: 9px;
+    padding: 0.45%;
     border-radius: 17px;
     /* width: 124px; */
-    margin-top: 595px;
+    margin-top: 30.05%;
 }
 div img{
-   width:30px;
+   width:1.51%;
    height: auto;
-   margin-left: 10px;
+   margin-left: 0.50%;
    align-items: center;
  }
 
 #lien_rs{
-  width: 250px;
+  width: 12,62%;
   display: flex;
   justify-content: space-around;
 }
 @media (max-width: 993px){
   nav {
-    margin-left: 30px;
-    margin-right: -175px;
+    margin-left: 1.51%;
+    margin-right: -8.83%;
     align-items: center;
   }
   h3{
-    margin-left: 30px;
-    margin-right: -195px;
+    margin-left: 1.51%;
+    margin-right: -9.8%;
     align-items: center;
   }
   .Maps{
-    margin-left: 270px;
-    margin-right: -227px;
+    margin-left: 13,6%;
+    margin-right: -11,46%;
     align-items: center;
   }
   .formulaire{
-    margin-left: -5px;
-    margin-right: -227px;
+    margin-left: -0.25%;
+    margin-right: -0.57%;
     align-items: center;
-    margin-top: 19px;
+    margin-top: 0,95%;
   }
   footer {
-    margin-left: 49px;
-    margin-right: -161px;
-    margin-top: 31px;
+    margin-left: 2,47%;
+    margin-right: -8,13%;
+    margin-top: 1,56%;
   }
   #lien_rs{
-    width: 250px;
+    width: 12.6%;
     display: flex;
     justify-content: space-around;
-    margin-left: 391px;
+    margin-left: 19,74%;
   }
 }
