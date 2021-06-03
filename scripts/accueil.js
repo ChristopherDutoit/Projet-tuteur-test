@@ -43,14 +43,38 @@ if(i<images.length-1){
 
 
  function imageprec(){
-   if(i>0){
-     i--;
-   }
-   else{
-     i=3;
-   }
-   console.log(i);
-   document.getElementById('imagediapo').src = images[i];
+   if(i>-1){
+       i--;}
+       else{
+         i=2;
+       }
+
+   if(i== -1){
+    console.log(i);
+   timer = 35000;
+   document.getElementById('imagediapo').style.display = "none";
+   document.getElementById('pub').style.display = "block";
+   document.getElementById('pub').src="https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1";
+
+
+ } else{
+       timer = 5000;
+       document.getElementById('pub').src="";
+         document.getElementById('pub').style.display = "none";
+          console.log(i);
+       document.getElementById('imagediapo').src = images[i];
+       document.getElementById('imagediapo').style.display = "block";
+
+
+     }
+
+
+   if (stop == false){
+     console.log(stop)
+     console.log(timer);
+    setTimeout("imagesuiv(false)", timer);
+  }
+
 }
 
 function fullscreen(){
