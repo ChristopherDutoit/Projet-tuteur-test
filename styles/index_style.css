@@ -1,4 +1,6 @@
-
+h3,h2,nav {
+  font-family: Lato;
+}
 
 nav{
   text-align: center;
@@ -149,4 +151,8 @@ right: 6px;
 
 .Banner_FF {
   width: 1885px;
+}
+
+#btn-trad {
+  width: 5%;
 }

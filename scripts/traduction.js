@@ -15,8 +15,9 @@ function trad(val_trad) {
   //Traduction du nav en français/anglais (a part parce que sinon ça vas être chiant)
   //Si le compt_trad est impair, on vas deander à traduire en anglais
   if (compt_trad%2!=0) {
-    //On modifie le bouton
-    document.getElementById("btn-trad").value="Traduction en Français";
+    //On modifie l'image et le alt (au cas-où)
+    document.getElementById("btn-trad").src="images/Fr-flag.png";
+    document.getElementById("btn-trad").alt="Traduction Française";
     //On reset le a pour le parcours du nav
     a=0;
     //On parcours le nav pour le traduire
@@ -46,7 +47,9 @@ function trad(val_trad) {
 
   //Sinon, on re-met en fraçais
   else {
-    document.getElementById("btn-trad").value="English Translation";
+
+    document.getElementById("btn-trad").src="images/Engl_US-flag.png";
+    document.getElementById("btn-trad").alt="English Translation";
     a=0;
 
     while (a<=5) {
@@ -76,7 +79,7 @@ function trad(val_trad) {
     switch (val_trad) {
       //Page de l'index
       case 1:
-        document.getElementById("txt-pres-index").innerHTML="<h3>Our convention is based on Fantastic, Adventure, Horror, Fantasy, Science-Fiction and Epic themes. <br> It groups fiction fans present in the French region of \"Pas-de-Calais\" and its surroundings. <br> It has for goal to present fictions between fans. <br> this convention will be open the 18th of december, 2021 and will be closed the 20th of december, 2021. <br> The convention will  in the building \"Lille Grand Palais\". <br> If you want to present your favorite work of art, the applications for the exibitions are opened </h3>";
+        document.getElementById("txt-pres-index").innerHTML="<h3>Our convention is based on Fantastic, Adventure, Horror, Fantasy, Science-Fiction and Epic themes. <br> It groups fiction fans present in the French region of \"Pas-de-Calais\" and its surroundings. <br> It has for goal to present fictions between fans. <br> This convention will be open the 18th of december, 2021 and will be closed the 20th of december, 2021. <br> The convention will  in the building \"Lille Grand Palais\". <br> If you want to present your favorite work of art, the applications for the exibitions are opened </h3>";
         document.getElementById("partenaires-title").innerHTML="Our sponsors";
         break;
 
