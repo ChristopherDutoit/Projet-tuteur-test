@@ -1,4 +1,9 @@
 
+h3,h2,nav {
+  font-family: Lato;
+}
+
+
 nav{
   text-align: center;
     border: solid;
@@ -182,4 +187,7 @@ right: 6px;
     justify-content: space-around;
     margin-left: 576px;
   }
+
+#btn-trad {
+  width: 5%;
 }
