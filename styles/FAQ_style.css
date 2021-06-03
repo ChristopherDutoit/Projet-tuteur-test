@@ -81,3 +81,28 @@ height: auto;
     position: static;
     margin-left: 23px;
 }
+@media (max-width:993px){
+  .question {
+    text-align: center;
+    margin-right: -801px;
+    margin-top: -487px;
+    font-size: 15px;
+    margin-left: 751px;
+  }
+  nav {
+    margin-left: 233px;
+    margin-right: -619px;
+    align-items: center;
+  }
+  footer {
+    margin-left: 222px;
+    margin-right: -599px;
+    margin-top: 371px;
+  }
+  #lien_rs {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 554px;
+  }
+}

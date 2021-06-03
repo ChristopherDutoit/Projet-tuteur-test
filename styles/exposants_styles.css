@@ -115,6 +115,202 @@ td,td,th {
   background-position: center;
 }
 
+
+nav{
+  text-align: center;
+    border: solid;
+    background-color: #c3423f;
+    padding: 10px;
+    display: flex;
+justify-content: space-around;
+height: 30px;
+align-items: center;
+}
+ nav > a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+background-color: black;
+padding: 9px;
+border-radius: 17px;
+width: 150px;
+ }
+
+nav > a:hover{
+background: white;
+color:black;
+}
+
+footer{
+  background-color: #f7b538;
+    /* position: fixed; */
+    bottom: 0px;
+    /* width: 1900px; */
+    left: 0px;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #f7b538;
+    padding: 9px;
+
+    /* width: 124px; */
+    margin-top: 40px;
+
+}
+footer img{
+   width:30px;
+   height: auto;
+ }
+
+ #lien_rs{
+   width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-left:830px;
+ }
+
+#diapo{
+  border: solid;
+  text-align: center;
+  position: relative;
+    width: 1280px;
+    height: 720px;
+    left: 300px;
+    padding: 50px;
+
+}
+
+#image_diapo{
+  z-index: 0;
+  width: 1070px;
+  height: 710px;
+  position: absolute;
+left: 150px;
+}
+
+
+#image_diapo > img{
+  width: 1070px;
+height: 710px;
+position: inherit;
+top: 0px;
+left: 0px;
+z-index: 1;
+display: nome;
+
+
+}
+#fleche{
+  position: absolute;
+  bottom : 389px;
+  z-index: 1;
+  width: 1280px;
+display: flex;
+justify-content: space-between;
+
+}
+
+#fleche img{
+  height: 50px;
+}
+
+#partenaire{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#partenaire img{
+      width: 130px;
+}
+
+h3{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+#overlay{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height:100%;
+  z-index: 3;
+display: none;
+
+
+}
+
+#popup{
+  margin: 20% auto;
+      width: 1060px;
+      display: flex;
+      position: relative;
+      bottom: 275px;
+
+
+}
+
+#btnClose{
+  font-size: 50px;
+  position: absolute;
+top: -20px;
+right: 6px;
+}
+
+.Banner_FF {
+  width: 1885px;
+}
+
+@media (max-width:993px){
+  nav {
+    margin-left: 118px;
+    margin-right: -381px;
+    align-items: center;
+  }
+  h3{
+    margin-left: 200px;
+    margin-right: -698px;
+  }
+  #diapo{
+    margin-left: -55px;
+  }
+  footer {
+    margin-left: 138px;
+    margin-right: -362px;
+    margin-top: 78px;
+  }
+  h2{
+    margin-right: -698px;
+    margin-left: 200px;
+  }
+  #partenaire{
+    margin-right: -698px;
+    margin-left: 200px;
+  }
+  #lien_rs{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 469px;
+  }
+  #desc_expo{
+    margin-right: -436px;
+    margin-left: 69px;
+  }
+  table{
+    margin-right: -436px;
+    margin-left: 292px;
+  }
+}
+/* Une ligne du tableau=148px
+Mettre le fond du tableau en blanc mais lettre les ecritures en couleur
+
 .img-expo-tabl-TBBT {
   background-image: url(../images/Logo-TBBT-Expo.png);
   background-size: 85%;
@@ -135,3 +331,4 @@ td,td,th {
   background-repeat: no-repeat;
   background-position: center top;
 }
+
