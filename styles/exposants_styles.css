@@ -130,6 +130,13 @@ td,td,th {
   background-position: center;
 }
 
+.img-expo-tabl-MMG {
+  background-image: url(../images/Logo-MMG-Expo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .img-expo-tabl-Demon_S {
   background-image: url(../images/Logo-Demon_S-Expo.png);
   background-size: 55%;
@@ -138,6 +145,7 @@ td,td,th {
 }
 
 nav{
+  font-family: Lato;
   text-align: center;
     border: solid;
     background-color: #c3423f;
@@ -286,6 +294,10 @@ right: 6px;
 
 .Banner_FF {
   width: 1885px;
+}
+
+#btn-trad {
+  width: 5%;
 }
 
 @media (max-width:993px){
