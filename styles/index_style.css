@@ -202,6 +202,7 @@ right: -35px;
   background-color: #404040;
 }
 
+<<<<<<< HEAD
 .TW-footer {
   background-color: #00b6f1;
   font-size: 20px;
@@ -264,4 +265,12 @@ right: -35px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+=======
+.reseaux img {
+  height: 50px;
+}
+
+.TW-footer {
+  background-color: red;
+>>>>>>> 7ac45da7edf7ffeb31060dd03819924ae4fa1f23
 }
