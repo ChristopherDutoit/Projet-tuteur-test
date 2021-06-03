@@ -52,12 +52,17 @@ footer img{
    height: auto;
  }
 
+
+
  #lien_rs{
    width: 250px;
     display: flex;
     justify-content: space-around;
     margin-left:830px;
  }
+
+
+
 
 #diapo{
   border: solid;
