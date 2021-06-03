@@ -138,6 +138,7 @@ td,td,th {
 }
 
 nav{
+  font-family: Lato;
   text-align: center;
     border: solid;
     background-color: #c3423f;
@@ -286,6 +287,10 @@ right: 6px;
 
 .Banner_FF {
   width: 1885px;
+}
+
+#btn-trad {
+  width: 5%;
 }
 
 @media (max-width:993px){

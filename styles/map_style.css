@@ -1,3 +1,7 @@
+* {
+  font-family: Lato;
+}
+
 html {
   background-color: ;
 }
@@ -85,7 +89,7 @@ text-transform: uppercase;
 background-color: black;
 padding: 9px;
 border-radius: 17px;
-width: 124px;
+width: 150px;
  }
 
 nav > a:hover{
@@ -122,6 +126,11 @@ div img{
   display: flex;
   justify-content: space-around;
 }
+
+#btn-trad {
+  width: 5%;
+}
+
 @media (max-width: 993px){
   nav {
     margin-left: 30px;
