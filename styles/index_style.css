@@ -1,8 +1,10 @@
+* {
+  font-family: Lato;
+}
 
 h3,h2,nav {
   font-family: Lato;
 }
-
 
 nav{
   text-align: center;
@@ -29,28 +31,10 @@ background: white;
 color:black;
 }
 
-footer{
-  background-color: #f7b538;
-    /* position: fixed; */
-    bottom: 0px;
-    /* width: 1900px; */
-    left: 0px;
-    padding: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    background-color: #f7b538;
-    padding: 9px;
-
-    /* width: 124px; */
-    margin-top: 40px;
-
+footer {
+  background-color: #404040;
+  border: none;
 }
-footer img{
-   width:30px;
-   height: auto;
- }
 
  #lien_rs{
    width: 250px;
@@ -196,4 +180,88 @@ right: -35px;
 
 #btn-trad {
   width: 5%;
+}
+
+.nav-footer {
+  background-image: url(../images/trait-blanc.png);
+  background-repeat: no-repeat;
+  background-position: center left 853px;
+  background-size: 2px 190px;
+  background-color: #404040;
+  height: auto;
+  color: white;
+  display: grid;
+  text-align: left;
+  max-width: 1857px;
+  line-height: 20px;
+  border:none;
+}
+
+.nav-footer a {
+  border-radius: 0px;
+  background-color: #404040;
+}
+
+.TW-footer {
+  background-color: #00b6f1;
+  font-size: 20px;
+}
+
+.TW-footer img {
+  width: 25px;
+}
+
+.TW-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.YT-footer {
+  background-color: #ff0000;
+  font-size: 20px;
+}
+
+.YT-footer img {
+  width: 25px;
+}
+
+.YT-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.FB-footer {
+  background-color: #49659f;
+  font-size: 20px;
+}
+
+.FB-footer img {
+  width: 25px;
+}
+
+.FB-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.IG-footer {
+  background-color: #ff7800;
+  font-size: 20px;
+}
+
+.IG-footer img {
+  width: 25px;
+}
+
+.IG-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
 }
