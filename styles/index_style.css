@@ -136,10 +136,10 @@ display: none;
 
 #popup{
   margin: 20% auto;
-      width: 1060px;
+      width: 1250px;
       display: flex;
       position: relative;
-      bottom: 275px;
+      bottom: 300px;
 
 
 }
@@ -147,8 +147,13 @@ display: none;
 #btnClose{
   font-size: 50px;
   position: absolute;
-top: -20px;
-right: 6px;
+top: -30px;
+right: -35px;
+}
+
+#imagepopup{
+  width : 1250px;
+  margin : auto;
 }
 
 .Banner_FF {
