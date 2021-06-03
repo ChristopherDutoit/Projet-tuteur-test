@@ -130,6 +130,13 @@ td,td,th {
   background-position: center;
 }
 
+.img-expo-tabl-MMG {
+  background-image: url(../images/Logo-MMG-Expo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .img-expo-tabl-Demon_S {
   background-image: url(../images/Logo-Demon_S-Expo.png);
   background-size: 55%;
