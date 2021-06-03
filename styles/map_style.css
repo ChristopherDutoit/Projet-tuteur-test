@@ -134,8 +134,25 @@ div img{
     align-items: center;
   }
   .Maps{
-    margin-left: 86px;
+    margin-left: 270px;
     margin-right: -227px;
     align-items: center;
+  }
+  .formulaire{
+    margin-left: -5px;
+    margin-right: -227px;
+    align-items: center;
+    margin-top: 19px;
+  }
+  footer {
+    margin-left: 49px;
+    margin-right: -161px;
+    margin-top: 31px;
+  }
+  #lien_rs{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 391px;
   }
 }
