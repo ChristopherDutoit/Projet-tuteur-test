@@ -11,7 +11,7 @@ table {
   margin-top: 35px;
 }
 
-td {
+td,td,th {
   border: 2px solid black;
 }
 
@@ -75,24 +75,63 @@ td {
 
 .img-expo-tabl-FF {
   background-image: url(../images/Logo-FF-Expo.png);
-  background-size: 100%;
+  background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .img-expo-tabl-Mario {
   background-image: url(../images/Logo-Mario-Expo.png);
-  background-size: 65%;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .img-expo-tabl-BTTF {
   background-image: url(../images/Logo-BTTF-Expo.png);
-  background-size: 65%;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* Une ligne du tableau=148px
-Mettre le fond du tableau en blanc mais lettre les ecritures en couleur
+.img-expo-tabl-HP {
+  background-image: url(../images/Logo-HP-Expo.png);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-expo-tabl-SW {
+  background-image: url(../images/Logo-SW-Expo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-expo-tabl-DW {
+  background-image: url(../images/Logo-DW-Expo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-expo-tabl-TBBT {
+  background-image: url(../images/Logo-TBBT-Expo.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center top -24px;
+}
+
+.img-expo-tabl-B99 {
+  background-image: url(../images/Logo-B99-Expo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-expo-tabl-Demon_S {
+  background-image: url(../images/Logo-Demon_S-Expo.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
