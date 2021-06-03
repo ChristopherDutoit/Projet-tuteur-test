@@ -117,8 +117,25 @@ div img{
    align-items: center;
  }
 
- #lien_rs{
-   width: 250px;
-    display: flex;
-    justify-content: space-around;
- }
+#lien_rs{
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 993px){
+  nav {
+    margin-left: 30px;
+    margin-right: -175px;
+    align-items: center;
+  }
+  h3{
+    margin-left: 30px;
+    margin-right: -195px;
+    align-items: center;
+  }
+  .Maps{
+    margin-left: 86px;
+    margin-right: -227px;
+    align-items: center;
+  }
+}
