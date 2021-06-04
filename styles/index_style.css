@@ -2,6 +2,8 @@
   font-family: Lato;
 }
 
+
+
 h3,h2,nav {
   font-family: Lato;
   color: white;
@@ -95,7 +97,7 @@ justify-content: space-between;
 }
 
 #fleche img{
-  height: 50px;
+  height: 100px;
 }
 
 #partenaire{
@@ -260,6 +262,11 @@ right: -35px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+.présentation{
+  background-color: #820b8a;
+padding: 20px;
+line-height: 40px
 }
 
 .IG-footer {
