@@ -1,81 +1,49 @@
+
 var images=[];
-images[0]="images/ConventionFond.jpg";
-images[1]="images/ConventionFond2.jpg";
-images[2]="images/ConventionFond3.jpg";
- var i= -1;
- var timer=5000;
+images[0]="<iframe id='pub' width='1070px'height='710px'src='https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1'  title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'   allowfullscreen></iframe>";
+images[1]="<img id='imagediapo' src='images/ConventionFond.jpg 'alt='image de convention' onclick='fullscreen()'>";
+images[2]="<img id='imagediapo' src= 'images/ConventionFond2.jpg' alt='image de convention' onclick='fullscreen()'>";
+images[3]="<img id='imagediapo' src='images/ConventionFond3.jpg'calt='image de convention' onclick='fullscreen()'>";
+ var i= 0;
+ var timer=35000;
 var suiv;
 
- function imagesuiv(stop){
-
-
-if(i== -1){
+ function imagesuiv(){
    console.log(i);
-  timer = 35000;
-  document.getElementById('imagediapo').style.display = "none";
-  document.getElementById('pub').style.display = "block";
-  document.getElementById('pub').src="https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1";
-
-
-} else{
-      timer = 5000;
-      document.getElementById('pub').src="";
-        document.getElementById('pub').style.display = "none";
-         console.log(i);
-      document.getElementById('imagediapo').src = images[i];
-      document.getElementById('imagediapo').style.display = "block";
-
-
-    }
-if(i<images.length-1){
-    i++;}
-    else{
-      i=-1;
+    document.getElementById('image_diapo').innerHTML = images[i];
+    suiv = setTimeout("imagesuiv()", timer);
+   if(i<images.length-1){
+      timer=5000;
+           i++;}
+  else{
+      i=0;
+      timer=35000;
     }
 
-  if (stop == false){
-    console.log(stop)
-    console.log(timer);
-   setTimeout("imagesuiv(false)", timer);
+console.log(timer);
+console.log(i);
  }
 
+function btnSuiv(){
+  clearTimeout(suiv);
+  imagesuiv();
 }
-
 
  function imageprec(){
-   if(i>-1){
-       i--;}
-       else{
-         i=2;
-       }
-
-   if(i== -1){
-    console.log(i);
-   timer = 35000;
-   document.getElementById('imagediapo').style.display = "none";
-   document.getElementById('pub').style.display = "block";
-   document.getElementById('pub').src="https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1";
-
-
- } else{
-       timer = 5000;
-       document.getElementById('pub').src="";
-         document.getElementById('pub').style.display = "none";
-          console.log(i);
-       document.getElementById('imagediapo').src = images[i];
-       document.getElementById('imagediapo').style.display = "block";
-
-
+   clearTimeout(suiv);
+   if (i>1){
+     i-=2;}
+        else{
+          if (i == 0){
+            i=images.length-2;
+          }else{
+       i= images.length-1;}
      }
+   imagesuiv();
 
-
-   if (stop == false){
-     console.log(stop)
-     console.log(timer);
-    setTimeout("imagesuiv(false)", timer);
   }
 
-}
+
 
 function fullscreen(){
   var urlimg=document.getElementById('imagediapo').src;
@@ -89,4 +57,4 @@ function closeFullscreen(){
 document.getElementById('overlay').style.display ='none';
 
 }
- window.onload=imagesuiv(false);
+ window.onload=imagesuiv();

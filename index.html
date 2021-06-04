@@ -32,14 +32,15 @@
   </div>
 
   <div id="diapo">
-    <div id=image_diapo>
-<iframe id='pub' width="1070px" height="710px" src="https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1" volume="0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
 
-     <img id="imagediapo" alt="image de convention" onclick="fullscreen()">
+    <div id=image_diapo>
     </div>
+
+
+
     <div id="fleche">
       <img src='images/fleche.png' alt="avancer" onclick="imageprec();">
-      <img src='images/fleche2.png' alt="reculer" onclick="imagesuiv('true');">
+      <img src='images/fleche2.png' alt="reculer" onclick="btnSuiv();">
     </div>
 
 
@@ -53,7 +54,6 @@
   </div>
 
   <h2 id="partenaires-title"> Nos partenaires </h2>
-
   <div id='partenaire'>
     <a href="https://www.lille.fr/"><img src="images/Logo_Lille.png" alt="ville de Lille"></a>
     <a href="https://www.hautsdefrance.fr/"><img src="images/Logo_Hdf.png" alt="région Haut-de-France"></a>
@@ -63,29 +63,18 @@
     <a href="https://store.eu.square-enix-games.com/en_EU/"><img src="images/Logo_SquareEnix.png" alt="Square Enix"></a>
   </div>
 
-    <footer>
+  <footer>
+    <div id="lien_rs">
+          <a href="https://twitter.com/fictionfanscon"><img id="test" src="images\iconetwitter.png" alt="icone twitter"></a>
+          <a href="https://www.facebook.com/fictionfanscon"><img src="images/iconefb.png" alt="icone facebook"></a>
+          <a href="https://www.instagram.com/fictionfanscon/"><img src="images/iconeig.png" alt="icone facebook"></a>
+          <a href="https://www.youtube.com/channel/UCOcix4ZWoQcLmubkcryyTKA"><img src="images/iconeyt.png" alt="icone facebook"></a>
+    </div>
 
-      <nav class="nav-footer">
-        <a href="index.html" id="nav-1">accueil</a>
-        <a href="pages/exposants.html" id="nav-2">exposants</a>
-        <a href="pages/map.html" id="nav-3">info-pratique</a>
-        <a href="pages/FAQ.html" id="nav-4">faq</a>
-        <a href="pages/documents.html" id="nav-5">documents</a>
-      </nav>
+    <div>
 
-      <div class="reseaux">
-        <table>
-          <tr>
-            <td class="TW-footer"> <a href="https://twitter.com/fictionfanscon" ><img class="footer-img" src="images\iconetwitter.png" alt="Notre Twiter"> Twitter </a> </td>
-            <td class="FB-footer"> <a href="https://www.facebook.com/fictionfanscon" ><img class="footer-img" src="images/iconefb.png" alt="Notre page Facebook"> Facebook </a> </td>
-            <td class="IG-footer"> <a href="https://www.instagram.com/fictionfanscon/" ><img class="footer-img" src="images/iconeig.png" alt="Notre page Instagram"> Instagram </a> </td>
-            <td class="YT-footer"> <a href="https://www.youtube.com/channel/UCOcix4ZWoQcLmubkcryyTKA" ><img class="footer-img" src="images/iconeyt.png" alt="Notre chaîne YouTube"> Youtube </a> </td>
-          </tr>
-        </table>
-      </div>
-
-    </footer>
-
+    </div>
+  </footer>
 <script src="scripts/accueil.js"> </script>
 </body>
 </html>
