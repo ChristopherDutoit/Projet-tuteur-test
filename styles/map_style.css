@@ -88,13 +88,12 @@ color: white;
 text-transform: uppercase;
 background-color: black;
 padding: 9px;
-<<<<<<< HEAD
 border-radius: 0,85%;
 width: 6,26%;
-=======
+
 border-radius: 17px;
 width: 150px;
->>>>>>> 5c9dbc538c977cdc8b6dc6fa058707a8804f6b50
+
  }
 
 nav > a:hover{
