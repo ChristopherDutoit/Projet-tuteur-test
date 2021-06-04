@@ -1,3 +1,7 @@
+html{
+  background-color: black;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -9,10 +13,11 @@ table {
   font-size: 20px;
   font-weight: bold;
   margin-top: 35px;
+  color: white;
 }
 
 td,td,th {
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 #desc_expo {
@@ -57,6 +62,8 @@ td,td,th {
   background-size: 42%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-AC {
@@ -64,6 +71,8 @@ td,td,th {
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-DS {
@@ -71,6 +80,8 @@ td,td,th {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-FF {
@@ -78,6 +89,8 @@ td,td,th {
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-Mario {
@@ -85,6 +98,8 @@ td,td,th {
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-BTTF {
@@ -92,6 +107,8 @@ td,td,th {
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-HP {
@@ -99,6 +116,8 @@ td,td,th {
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-SW {
@@ -106,6 +125,7 @@ td,td,th {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
 }
 
 .img-expo-tabl-DW {
@@ -113,6 +133,8 @@ td,td,th {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 
@@ -121,6 +143,8 @@ td,td,th {
   background-size: 85%;
   background-repeat: no-repeat;
   background-position: center top -24px;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-B99 {
@@ -128,6 +152,8 @@ td,td,th {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-MMG {
@@ -135,6 +161,8 @@ td,td,th {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  padding: 65px;
 }
 
 .img-expo-tabl-Demon_S {
@@ -142,6 +170,8 @@ td,td,th {
   background-size: 55%;
   background-repeat: no-repeat;
   background-position: center top;
+  background-color: white;
+  padding: 65px;
 }
 
 nav{

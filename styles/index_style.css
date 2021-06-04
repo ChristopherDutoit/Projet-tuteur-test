@@ -2,16 +2,28 @@
   font-family: Lato;
 }
 
+
+
 h3,h2,nav {
   font-family: Lato;
+  color: white;
+}
+h2{
+  background-color: #404040;
+}
+h2#partenaire.title{
+  background-color: #404040;
+}
+html{
+  background-color: black;
 }
 
 nav{
   text-align: center;
-    border: solid;
-    background-color: #c3423f;
-    padding: 10px;
-    display: flex;
+  border: solid;
+  background-color: #c3423f;
+  padding: 10px;
+  display: flex;
 justify-content: space-around;
 height: 30px;
 align-items: center;
@@ -22,7 +34,7 @@ color: white;
 text-transform: uppercase;
 background-color: black;
 padding: 9px;
-border-radius: 17px;
+/*border-radius: 17px;*/
 width: 150px;
  }
 
@@ -51,7 +63,7 @@ footer {
     height: 720px;
     left: 300px;
     padding: 50px;
-
+    background-color: white;
 }
 
 #image_diapo{
@@ -85,13 +97,14 @@ justify-content: space-between;
 }
 
 #fleche img{
-  height: 50px;
+  height: 100px;
 }
 
 #partenaire{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #404040;
 }
 #partenaire img{
       width: 130px;
@@ -187,7 +200,7 @@ right: -35px;
   background-repeat: no-repeat;
   background-position: center left 853px;
   background-size: 2px 190px;
-  background-color: #404040;
+  background-color: #f7b538;
   height: auto;
   color: white;
   display: grid;
@@ -199,10 +212,10 @@ right: -35px;
 
 .nav-footer a {
   border-radius: 0px;
-  background-color: #404040;
+  background-color: #f7b538;
 }
 
-<<<<<<< HEAD
+
 .TW-footer {
   background-color: #00b6f1;
   font-size: 20px;
@@ -250,6 +263,11 @@ right: -35px;
   color: white;
   text-transform: uppercase;
 }
+.présentation{
+  background-color: #820b8a;
+padding: 20px;
+line-height: 40px
+}
 
 .IG-footer {
   background-color: #ff7800;
@@ -265,12 +283,12 @@ right: -35px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-=======
+
 .reseaux img {
   height: 50px;
 }
 
 .TW-footer {
   background-color: red;
->>>>>>> 7ac45da7edf7ffeb31060dd03819924ae4fa1f23
+
 }
