@@ -174,11 +174,7 @@ right: -35px;
   #diapo{
     margin-left: -55px;
   }
-  footer {
-    margin-left: 225px;
-    margin-right: -661px;
-    margin-top: 78px;
-  }
+
   h2{
     margin-right: -698px;
     margin-left: 200px;
@@ -187,12 +183,7 @@ right: -35px;
     margin-right: -698px;
     margin-left: 200px;
   }
-  #lien_rs{
-    width: 250px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 576px;
-  }
+
 }
 
 #btn-trad {
