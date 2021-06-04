@@ -1,3 +1,6 @@
+* {
+  font-family: Lato;
+}
 
 h3,h2,nav {
   font-family: Lato;
@@ -204,10 +207,75 @@ right: -35px;
   background-color: #404040;
 }
 
+<<<<<<< HEAD
+.TW-footer {
+  background-color: #00b6f1;
+  font-size: 20px;
+}
+
+.TW-footer img {
+  width: 25px;
+}
+
+.TW-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.YT-footer {
+  background-color: #ff0000;
+  font-size: 20px;
+}
+
+.YT-footer img {
+  width: 25px;
+}
+
+.YT-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.FB-footer {
+  background-color: #49659f;
+  font-size: 20px;
+}
+
+.FB-footer img {
+  width: 25px;
+}
+
+.FB-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.IG-footer {
+  background-color: #ff7800;
+  font-size: 20px;
+}
+
+.IG-footer img {
+  width: 25px;
+}
+
+.IG-footer a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+=======
 .reseaux img {
   height: 50px;
 }
 
 .TW-footer {
   background-color: red;
+>>>>>>> 7ac45da7edf7ffeb31060dd03819924ae4fa1f23
 }
