@@ -156,19 +156,30 @@ right: -35px;
 .Banner_FF {
   width: 1885px;
 }
+#btn-trad{
+  width: 5%;
+}
 
-@media (max-width:993px) {
-  nav {
-    margin-left: 228px;
-    margin-right: -666px;
-    align-items: center;
+@media screen and (max-width:1024px) {
+
+  .Banner_FF{
+    width: auto;
   }
-  h3{
-    margin-left: 200px;
-    margin-right: -698px;
+  #nav1 {
+    flex-direction: column;
+        justify-content: space-around;
+        height: 890px;
+        width: 30%;
   }
+
+  #btn-trad{
+    width: 30%;
+  }
+
   #diapo{
-    margin-left: -55px;
+    position: absolute;
+top: 700px;
+left: 435px;
   }
   footer {
     margin-left: 225px;
@@ -189,11 +200,15 @@ right: -35px;
     justify-content: space-around;
     margin-left: 576px;
   }
+
+  .présentation{
+
+      width: 195%;
+      min-width: 100%;
+  }
 }
 
-#btn-trad {
-  width: 5%;
-}
+
 
 .nav-footer {
   background-image: url(../images/trait-blanc.png);
