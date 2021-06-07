@@ -103,7 +103,9 @@ width: 6,26%;
 width: 150px;
 
  }
-
+.formulaire{
+  margin-right: 105px;
+}
 nav > a:hover{
 background: white;
 color:black;
@@ -124,39 +126,46 @@ footer{
     padding: 0.45%;
     border-radius: 17px;
     /* width: 124px; */
-    margin-top: 30.05%;
+    argin-top: -1.95%;
 }
 div img{
-   width:1.51%;
+   width: 8.51%;
    height: auto;
    margin-left: 0.50%;
    align-items: center;
  }
-
-#lien_rs{
-  width: 12,62%;
+#lien_rs {
+  width: 250px;
   display: flex;
   justify-content: space-around;
+  margin-left: 830px;
 }
 
+
+div.button {
+  margin-left: 68px;
+  margin-top: 10px;
+}
 #btn-trad {
   width: 5%;
 }
 
 @media (max-width: 993px){
   nav {
-    margin-left: 1.51%;
-    margin-right: -8.83%;
+    margin-left: 15px;
+    margin-right: -515px;
     align-items: center;
   }
   h3{
     margin-left: 1.51%;
-    margin-right: -9.8%;
+    margin-right: -5.8%;
     align-items: center;
+    font-size: 13px;
+    text-align: center;
   }
   .Maps{
-    margin-left: 13,6%;
-    margin-right: -11,46%;
+    margin-left: 18.6%;
+    margin-right: -11.46%;
     align-items: center;
   }
   .formulaire{
@@ -166,14 +175,29 @@ div img{
     margin-top: 0,95%;
   }
   footer {
-    margin-left: 2,47%;
-    margin-right: -8,13%;
-    margin-top: 1,56%;
+    margin-left: -2px;
+    margin-right: -1978px;
+    margin-top: 371px;
   }
   #lien_rs{
     width: 12.6%;
     display: flex;
     justify-content: space-around;
     margin-left: 19,74%;
+  }
+  .trait img {
+    max-width: 489px;
+    z-index: 8;
+    position: static;
+    margin-left: 43px;
+    visibility: hidden;
+  }
+  .question {
+    text-align: center;
+    margin-right: -816px;
+    margin-top: -487px;
+    font-size: 9px;
+    margin-left: -24px;
+    margin-bottom: 149px;
   }
 }
