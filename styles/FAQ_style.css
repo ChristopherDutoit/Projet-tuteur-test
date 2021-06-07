@@ -18,7 +18,7 @@ color: white;
 text-transform: uppercase;
 background-color: black;
 padding: 0.45%;
-border-radius: 0.85%;
+/*border-radius: 0.85%*/;
 width: 6.26%;
  }
 
@@ -29,7 +29,7 @@ color:black;
 
 .gif{
   margin-left: 0%;
-  margin-top: -4%;
+  margin-top: -7%;
 }
 footer{
     background-color: #f7b538;
@@ -65,7 +65,8 @@ height: auto;
 .question{
   text-align: center;
   margin-right: -41%;
-  margin-top: -25.59%;
+  margin-top: -16.59%;
+  color: white;
 }
 
 .video{
