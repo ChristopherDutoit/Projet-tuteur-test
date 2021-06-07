@@ -10,7 +10,7 @@ require '../PHPMailer/PHPMailer/src/SMTP.php';
 $mail = new PHPMailer();
 
 $mail->SMTPDebug = true;
-/*$mail->SMTPDebug=1; A décommenter si qq chose merde*/
+$mail->SMTPDebug=1;
 $mail->SMTPAuth = true;
 
 $mail->CharSet = 'utf-8';
@@ -19,7 +19,7 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = '465';
 
 $mail->Username = 'viart.felix2017@gmail.com';
-$mail->Password = 'wpybsxrbwhghqwwu';
+$mail->Password = '';
 
 $mail->Mailer = 'smtp';
 
