@@ -1,6 +1,6 @@
 
 var images=[];
-images[0]="<iframe id='pub' width='1070px'height='710px'src='https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1'  title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'   allowfullscreen></iframe>";
+images[0]="<iframe id='pub' width='90%'height='auto'src='https://www.youtube.com/embed/9R1K0BzetwA?rel=0&autoplay=1'  title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'   allowfullscreen></iframe>";
 images[1]="<img id='imagediapo' src='images/ConventionFond.jpg 'alt='image de convention' onclick='fullscreen()'>";
 images[2]="<img id='imagediapo' src= 'images/ConventionFond2.jpg' alt='image de convention' onclick='fullscreen()'>";
 images[3]="<img id='imagediapo' src='images/ConventionFond3.jpg'calt='image de convention' onclick='fullscreen()'>";

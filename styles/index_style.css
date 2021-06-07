@@ -50,6 +50,10 @@ footer {
   border: none;
 }
 
+#partenaires-title{
+  margin: 20px 0px 0px 0px;
+}
+
  #lien_rs{
    width: 250px;
     display: flex;
@@ -60,31 +64,32 @@ footer {
 #diapo{
   border: solid;
   text-align: center;
-  position: relative;
-    width: 1280px;
-    height: 720px;
-    left: 300px;
+  position: absolute;
+    width: 70%;
+    height: 50%;
     padding: 50px;
     background-color: white;
+    margin: auto;
+    background: #404040;
 }
 
 #image_diapo{
   z-index: 0;
-  width: 1070px;
-  height: 710px;
+  width: 90%;
+
   position: absolute;
-left: 150px;
 }
 
 
 #image_diapo > img{
-  width: 1070px;
-height: 710px;
+  width: 90%;
+height: auto;
 position: inherit;
 top: 0px;
 left: 0px;
 z-index: 1;
 display: nome;
+margin: auto;
 
 
 }
@@ -95,11 +100,12 @@ display: nome;
   width: 1280px;
 display: flex;
 justify-content: space-between;
+width :100%;
 
 }
 
 #fleche img{
-  height: 100px;
+  width: 7%;
 }
 
 #partenaire{
@@ -156,7 +162,7 @@ right: -35px;
 }
 
 .Banner_FF {
-  width: 1885px;
+  width: 100%;
 }
 #btn-trad{
   width: 5%;
@@ -164,9 +170,7 @@ right: -35px;
 
 @media screen and (max-width:1024px) {
 
-  .Banner_FF{
-    width: auto;
-  }
+
   #nav1 {
     flex-direction: column;
         justify-content: space-around;
@@ -179,7 +183,7 @@ right: -35px;
   }
 
   #diapo{
-    position: absolute;
+position: absolute;
 top: 700px;
 left: 435px;
   }
