@@ -8,38 +8,37 @@ require '../PHPMailer/PHPMailer/src/PHPMailer.php';
 require '../PHPMailer/PHPMailer/src/SMTP.php';
 
 $mail = new PHPMailer();
-$mail->IsSMTP();
-$mail->Host = 'smtp.gmail.com';             //Adresse IP ou DNS du serveur SMTP
-$mail->Port = 465;                          //Port TCP du serveur SMTP
-$mail->SMTPAuth = 1;                        //Utiliser l'identification
 
-if($mail->SMTPAuth){
-   $mail->SMTPSecure = 'ssl';               //Protocole de sécurisation des échanges avec le SMTP
-   $mail->Username   =  'viart.felix2017@gmail.com';   //Adresse email à utiliser
-   $mail->Password   =  'fefe2002$*';                //Mot de passe de l'adresse email à utiliser
-}
+$mail->SMTPDebug = true;
+/*$mail->SMTPDebug=1; A décommenter si qq chose merde*/
+$mail->SMTPAuth = true;
 
+$mail->CharSet = 'utf-8';
+$mail->SMTPSecure = 'ssl';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = '465';
 
-$mail->CharSet = 'UTF-8';                  //Format d'encodage à utiliser pour les caractères
+$mail->Username = 'viart.felix2017@gmail.com';
+$mail->Password = 'wpybsxrbwhghqwwu';
 
-$mail->From       =  'ouibonjour@gmail.com';               //L'email à afficher pour l'envoi
-$mail->FromName   = 'Félix';             //L'alias à afficher pour l'envoi
+$mail->Mailer = 'smtp';
 
-$mail->Subject    =  'Le sujet';                      //Le sujet du mail
-$mail->WordWrap   = 50; 			                         //Nombre de caracteres pour le retour a la ligne automatique
-$mail->AltBody = 'Si ça marche ptn de merde je hurle'; 	       //Texte brut
+$mail->AddReplyTo('viart.felix2017@gmail.com', 'Fél2ix Viart');
+$mail->SetFrom('viart.felix2017@gmail.com','Via2Fé rtlix');
+$mail->FromName = 'Viart_Félix';
+$mail->Sender = 'viart.felix2017@gmail.com';
+$mail->Body = 'Hello, this is my message.';
+$mail->Priority = 3;
+
+$mail->AddAddress('viart.felix2017@gmail.com', 'Via2rt Félix');
 $mail->IsHTML(true);
-$mail->Body="Si ça marche POGCHAMP";
-$mail->AddAddress('viart.felix2017@gmail.com','Félix Viart');
 
-$mail->ErrorInfo;
+$mail->Subject = 'Oui bonsoir c est Félix laul';
 
-$mail->send();
-
-if ($mail->send()) {
-      echo $mail->ErrorInfo;
-} else{
-      echo 'Message bien envoyé';
+if(!$mail->send()) {
+    echo 'Message could not be sent: <br>';
+    echo 'Mailer Error: ' . $mail->ErrorInfo . '<br>';
+    exit;
 }
 
 ?>
