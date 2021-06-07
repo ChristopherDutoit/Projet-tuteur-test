@@ -29,7 +29,7 @@ color:black;
 
 .gif{
   margin-left: 0%;
-  margin-top: -7%;
+  margin-top: -1%;
 }
 footer{
     background-color: #f7b538;
@@ -65,7 +65,7 @@ height: auto;
 .question{
   text-align: center;
   margin-right: -41%;
-  margin-top: -16.59%;
+  margin-top: -27.59%;
   color: white;
 }
 
@@ -80,7 +80,7 @@ height: auto;
   /*width: 10px;*/
   margin-left: 25.25%;
   margin-top: -15.82%;
-  max-width: 15.25%;
+  width: 10px;
 }
 
 .trait img{
