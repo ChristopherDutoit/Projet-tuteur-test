@@ -18,19 +18,19 @@ $mail->SMTPSecure = 'ssl';
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = '465';
 
-$mail->Username = 'viart.felix2017@gmail.com';
-$mail->Password = '';
+$mail->Username = 'fictionfansconvention@gmail.com';
+$mail->Password = 'lmvrsuagoiynhyxb';
 
 $mail->Mailer = 'smtp';
 
-$mail->AddReplyTo('viart.felix2017@gmail.com', 'Fél2ix Viart');
-$mail->SetFrom('viart.felix2017@gmail.com','Via2Fé rtlix');
+$mail->AddReplyTo('fictionfansconvention@gmail.com', 'Fél2ix Viart');
+$mail->SetFrom('fictionfansconvention@gmail.com','Via2Fé rtlix');
 $mail->FromName = 'Viart_Félix';
-$mail->Sender = 'viart.felix2017@gmail.com';
+$mail->Sender = 'fictionfansconvention@gmail.com';
 $mail->Body = 'Hello, this is my message.';
 $mail->Priority = 3;
 
-$mail->AddAddress('viart.felix2017@gmail.com', 'Via2rt Félix');
+$mail->AddAddress('fictionfansconvention@gmail.com', 'Via2rt Félix');
 $mail->IsHTML(true);
 
 $mail->Subject = 'Oui bonsoir c est Félix laul';
