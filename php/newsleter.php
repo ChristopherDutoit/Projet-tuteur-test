@@ -19,7 +19,7 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = '465';
 
 $mail->Username = 'fictionfansconvention@gmail.com';
-$mail->Password = 'lmvrsuagoiynhyxb';
+$mail->Password = '';
 
 $mail->Mailer = 'smtp';
 
