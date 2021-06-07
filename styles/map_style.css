@@ -103,7 +103,9 @@ width: 6,26%;
 width: 150px;
 
  }
-
+.formulaire{
+  margin-right: 105px;
+}
 nav > a:hover{
 background: white;
 color:black;
@@ -124,21 +126,26 @@ footer{
     padding: 0.45%;
     border-radius: 17px;
     /* width: 124px; */
-    margin-top: 30.05%;
+    argin-top: -1.95%;
 }
 div img{
-   width:1.51%;
+   width: 8.51%;
    height: auto;
    margin-left: 0.50%;
    align-items: center;
  }
-
-#lien_rs{
-  width: 12,62%;
+#lien_rs {
+  width: 250px;
   display: flex;
   justify-content: space-around;
+  margin-left: 830px;
 }
 
+
+div.button {
+  margin-left: 68px;
+  margin-top: 10px;
+}
 #btn-trad {
   width: 5%;
 }
