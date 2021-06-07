@@ -19,7 +19,7 @@ $mail->Host = 'smtp.gmail.com';
 $mail->Port = '465';
 
 $mail->Username = 'viart.felix2017@gmail.com';
-$mail->Password = 'wpybsxrbwhghqwwu';
+$mail->Password = '';
 
 $mail->Mailer = 'smtp';
 
